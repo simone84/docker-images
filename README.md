@@ -31,3 +31,10 @@ a modern bash shell (this has been done with GNU bash, version 4.3.48(1)-release
 
 ---TEST
 The script has been tested several times with different number of cups and all the results are matching with a manual excel sheet.
+
+
+- Dockerfile
+
+---Description
+Been left on the main page a Dockerfile.
+Fell free to run with docker: " sudo docker build -t test-mugs . "
