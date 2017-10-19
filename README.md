@@ -11,3 +11,23 @@ Your code should print the answer to the cup challenge when there are 100 cups.
 ---Name
 
 assesment.sh
+
+---Logic
+
+First: print out the list of mugs on the table to make the idea.
+Second: run the loop removing in the requested sequence the mugs on the round table. Over this step will be printed out the taken mugs. 
+Third: when the mug on the desk will be one, the script will print out the result and clean the temporary files.
+
+---Algotithm
+Start removing the odd mugs and checking every loop the number of the last mug.
+if the last of the remained mgs is not removed: the sequence will start removing to the next ride from the first mug;
+otherwise will leave the first mug and will start taking the second one.
+
+---Fun
+Change the NMUG variable to test with a different number of mugs keeping the same sequence.
+
+---REQUIREMENTS
+a modern bash shell (this has been done with GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu) )
+
+---TEST
+The script has been tested several times with different number of cups and all the results are matching with a manual excel sheet.
