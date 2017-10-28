@@ -1,12 +1,12 @@
 # DOCKER TEST REPOSITORY
 
-### Index:
+### Index ###
 
 * mugs - assesment
 * apache - in progress
 * scripts - scripts and templates
 
-### Structure:
+### Structure ###
 ```
 .
 ├── apache
@@ -24,3 +24,7 @@
         ├── Dockerfile
         └── README.md
 ```
+
+### CONTENTS ###
+
+![Alt text](https://www.docker.com/sites/default/files/horizontal-whitespace.png "Docker Logo")
