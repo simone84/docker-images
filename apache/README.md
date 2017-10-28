@@ -16,7 +16,7 @@ git clone git@bitbucket.org:simo84/test.git
 ```
 * Building
 ```
-cd test/apache && docker build -t c6apache2:latest .
+cd docker/apache && docker build -t c6apache2:latest .
 ```
 * Running binding on the 80
 ```
