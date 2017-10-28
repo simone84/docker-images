@@ -7,7 +7,7 @@
 * scripts - scripts and templates
 
 ### Structure:
-
+`
 .
 ├── apache
 │   ├── Dockerfile
@@ -23,3 +23,4 @@
     └── templates
         ├── Dockerfile
         └── README.md
+`
