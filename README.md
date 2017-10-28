@@ -3,7 +3,7 @@
 ### Index ###
 
 * mugs - assesment
-* apache - in progress
+* apache - simple ws on centos6
 * scripts - scripts and templates
 
 ### Structure ###
@@ -11,7 +11,11 @@
 .
 ├── apache
 │   ├── Dockerfile
-│   └── README.md
+│   ├── README.md
+│   └── var
+│       └── www
+│           └── html
+│               └── index.html
 ├── mugs
 │   ├── assesment.sh
 │   ├── Dockerfile
