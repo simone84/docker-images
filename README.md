@@ -21,12 +21,16 @@
 │   ├── Dockerfile
 │   └── README.md
 ├── README.md
-└── scripts
-    ├── cleaner.sh
-    ├── make.sh
-    └── templates
-        ├── Dockerfile
-        └── README.md
+├── scripts
+│   ├── cleaner.sh
+│   ├── make.sh
+│   ├── README.md
+│   └── templates
+│       ├── Dockerfile
+│       └── README.md
+└── tomcat
+    ├── Dockerfile
+    └── README.md
 ```
 
 ### CONTENTS ###
