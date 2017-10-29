@@ -1,33 +1,52 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+- XXX
+* Public container: https://hub.docker.com/r/simone84/centos6-XXX/
 
-### What is this repository for? ###
+### REQUIREMENTS ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+- Docker installed locally
+- Git to clone this repository
 
-### How do I get set up? ###
+### TEST WITH A LOCAL BUILDING ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Download
+```
+git clone git@bitbucket.org:simo84/test.git
+```
+* Building
+```
+cd docker/XXX && docker build -t YYY:latest .
+```
+* Running binding on the 80
+```
+docker run -OPTIONS -p ${BOXPORT}:${CONTAINERPORT} --name XXX YYY:latest
+```
+* Access on the container
+```
+docker exec -ti XXX bash
+```
+* Checking logs
+```
+docker logs XXX
+```
 
-### Contribution guidelines ###
+### TEST WITHOUT LOCAL BUILDING ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* Download the image and run the container
+```
+docker run -OPTIONS -p ${BOXPORT}:${CONTAINERPORT} --name XXX YYY:latest
+```
+### JUST PULLING THE IMAGE FROM THE HUB ###
+* Download the image to make your modifies
+```
+docker pull simone84/centos6-XXX:latest
+```
 
-### Who do I talk to? ###
+### TREE ###
+```
 
-* Repo owner or admin
-* Other community or team contact
+```
 
-### CONTENTS ###
-
-![Alt text](http://www.addictedtoibiza.com/wp-content/uploads/2012/12/example.png "Optional title")
+### LOGO ###
+![Alt text]( " Logo")
