@@ -5,6 +5,7 @@
 * mugs - assesment
 * apache - simple ws on centos6
 * scripts - scripts and templates
+* tomcat - simple jvm on centos6
 
 ### Structure ###
 ```
