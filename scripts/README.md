@@ -12,6 +12,11 @@ There is a variable on the third line named TOLEAVE to modify the source image t
 You may run this script from every folder as long as the user got the docker group.
 EX: ./cleaner.sh
 ```
+* swarm-building-aws.sh
+```
+Automated Script to install in your aws account a swarm cluster with two nodes and run a deploy.
+Additional info in the script.
+```
 
 ### TEMPLATE ###
 

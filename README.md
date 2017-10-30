@@ -29,6 +29,7 @@
 │       ├── Dockerfile
 │       └── README.md
 └── tomcat
+    ├── docker-compose.yml
     ├── Dockerfile
     └── README.md
 ```

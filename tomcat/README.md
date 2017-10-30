@@ -46,6 +46,7 @@ docker pull simone84/centos6-tomcat8:latest
 ### TREE ###
 ```
 .
+├── docker-compose.yml
 ├── Dockerfile
 └── README.md
 ```
